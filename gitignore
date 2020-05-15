@@ -1,0 +1,14 @@
+# Pastas do projeto UiPath Studio
+.local/
+.settings/
+.tmh/
+.objects/
+
+# Arquivos de Video
+*.mp4
+
+# Arquivos do MACOS para armazenar atributos da pasta corrente
+.DS_Store
+
+# Pasta de logfiles(padrão que uso)
+LogFiles/*.*
