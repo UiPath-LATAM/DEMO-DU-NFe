@@ -1,5 +1,5 @@
 # DEMO_DU-NFe
-Demo de UiPath Document Understanding para Nota Fiscal NFe
+Demonstração do UiPath Document Understanding para Nota Fiscal NFe utilizando o modelo ML de invoices da UiPath
 
 ### Descrição
 - Utilizando o Extrator ML para Invoices na __Nota Fiscal Eletrônica__
