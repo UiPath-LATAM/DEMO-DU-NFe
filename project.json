@@ -1,6 +1,6 @@
 {
-  "name": "DU-NFe",
-  "description": "Demo de Nota Fiscal Eletronica",
+  "name": "DEMO_DU-NFe",
+  "description": "Demonstração do UiPath Document Understanding para Nota Fiscal NFe utilizando o modelo ML de invoices da UiPath",
   "main": "DU-NFe.xaml",
   "dependencies": {
     "UiPath.DocumentUnderstanding.ML.Activities": "[1.1.0]",
