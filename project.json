@@ -3,12 +3,12 @@
   "description": "Demonstração do UiPath Document Understanding para Nota Fiscal NFe utilizando o modelo ML de invoices da UiPath",
   "main": "DU-NFe.xaml",
   "dependencies": {
-    "UiPath.DocumentUnderstanding.ML.Activities": "[1.1.0]",
-    "UiPath.IntelligentOCR.Activities": "[4.5.0]",
-    "UiPath.OCR.Activities": "[2.1.0-preview]",
+    "UiPath.DocumentUnderstanding.ML.Activities": "[1.2.1]",
+    "UiPath.IntelligentOCR.Activities": "[4.5.1]",
+    "UiPath.OCR.Activities": "[2.2.0-beta.1083662]",
     "UiPath.OmniPage.Activities": "[1.5.0]",
     "UiPath.System.Activities": "[20.4.0]",
-    "UiPath.UIAutomation.Activities": "[20.4.1]"
+    "UiPath.UIAutomation.Activities": "[20.4.2]"
   },
   "webServices": [],
   "schemaVersion": "4.0",
@@ -33,6 +33,10 @@
       "privateWorkflows": []
     },
     "fileInfoCollection": []
+  },
+  "arguments": {
+    "input": [],
+    "output": []
   },
   "expressionLanguage": "VisualBasic"
 }
