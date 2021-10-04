@@ -1,16 +1,18 @@
 {
-  "name": "DEMO_DU-NFe",
+  "name": "DEMO-DU-NFe",
   "description": "Demonstração do UiPath Document Understanding para Nota Fiscal NFe utilizando o modelo ML de invoices da UiPath",
   "main": "DU-NFe.xaml",
   "dependencies": {
-    "UiPath.DocumentUnderstanding.ML.Activities": "[1.2.1]",
-    "UiPath.IntelligentOCR.Activities": "[4.5.1]",
-    "UiPath.OCR.Activities": "[2.2.0-beta.1083662]",
-    "UiPath.OmniPage.Activities": "[1.5.0]",
-    "UiPath.System.Activities": "[20.4.0]",
-    "UiPath.UIAutomation.Activities": "[20.4.2]"
+    "UiPath.DocumentUnderstanding.ML.Activities": "[1.5.1]",
+    "UiPath.IntelligentOCR.Activities": "[4.10.1]",
+    "UiPath.MLServices.Activities": "[1.1.5]",
+    "UiPath.OCR.Activities": "[2.4.0]",
+    "UiPath.OmniPage.Activities": "[1.7.0]",
+    "UiPath.System.Activities": "[20.10.1]",
+    "UiPath.UIAutomation.Activities": "[20.10.6]"
   },
   "webServices": [],
+  "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "19.10.2.0",
   "projectVersion": "1.0.0",
@@ -23,7 +25,9 @@
       "Private:*",
       "*password*"
     ],
-    "executionType": "Workflow"
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false
   },
   "designOptions": {
     "projectProfile": "Developement",
@@ -32,11 +36,26 @@
       "includeOriginalXaml": false,
       "privateWorkflows": []
     },
-    "fileInfoCollection": []
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
   },
   "arguments": {
     "input": [],
     "output": []
   },
-  "expressionLanguage": "VisualBasic"
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "DU-NFe.xaml",
+      "uniqueId": "9013c007-0618-424a-a90e-d7ca5bd00756",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {}
 }
